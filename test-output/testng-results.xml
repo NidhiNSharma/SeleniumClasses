@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Amazon Page is launched successsfully]]>
+    </line>
+    <line>
+      <![CDATA[Page Title : Amazon.com. Spend less. Smile more.]]>
+    </line>
+    <line>
+      <![CDATA[Page Current Url : https://www.amazon.com/]]>
+    </line>
+    <line>
+      <![CDATA[Page is scrolled by pixel]]>
+    </line>
+    <line>
+      <![CDATA[Gift cards link is selected]]>
+    </line>
+    <line>
+      <![CDATA[Navigated url : https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc]]>
+    </line>
+    <line>
+      <![CDATA[CustomerService link is selected]]>
+    </line>
+    <line>
+      <![CDATA[Navigated url : https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-02-10T04:13:25Z" name="Default suite" finished-at="2022-02-10T04:13:43Z" duration-ms="18516">
+    <groups>
+    </groups>
+    <test started-at="2022-02-10T04:13:25Z" name="Default test" finished-at="2022-02-10T04:13:43Z" duration-ms="18516">
+      <class name="TestNGDemo.AmazonHyperLinks">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNGDemo.AmazonHyperLinks@79c97cb]" started-at="2022-02-10T04:13:25Z" name="beforeTest" finished-at="2022-02-10T04:13:31Z" duration-ms="6309" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Amazon Page is launched successsfully]]>
+            </line>
+            <line>
+              <![CDATA[Page Title : Amazon.com. Spend less. Smile more.]]>
+            </line>
+            <line>
+              <![CDATA[Page Current Url : https://www.amazon.com/]]>
+            </line>
+            <line>
+              <![CDATA[Page is scrolled by pixel]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="HyperLinkSelection()[pri:0, instance:TestNGDemo.AmazonHyperLinks@79c97cb]" started-at="2022-02-10T04:13:31Z" name="HyperLinkSelection" finished-at="2022-02-10T04:13:43Z" duration-ms="11288" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Gift cards link is selected]]>
+            </line>
+            <line>
+              <![CDATA[Navigated url : https://www.amazon.com/gift-cards/b/?ie=UTF8&node=2238192011&ref_=nav_cs_gc]]>
+            </line>
+            <line>
+              <![CDATA[CustomerService link is selected]]>
+            </line>
+            <line>
+              <![CDATA[Navigated url : https://www.amazon.com/gp/help/customer/display.html?nodeId=508510&ref_=nav_cs_customerservice]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- HyperLinkSelection -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGDemo.AmazonHyperLinks@79c97cb]" started-at="2022-02-10T04:13:43Z" name="afterTest" finished-at="2022-02-10T04:13:43Z" duration-ms="879" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGDemo.AmazonHyperLinks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

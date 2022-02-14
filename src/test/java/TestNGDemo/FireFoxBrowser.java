@@ -1,0 +1,54 @@
+package TestNGDemo;
+
+import org.testng.annotations.Test;
+import org.testng.annotations.BeforeTest;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Reporter;
+import org.testng.annotations.AfterTest;
+
+public class FireFoxBrowser {
+	
+	WebDriver driver = null;
+  
+  @Test
+  public void Test() {
+	  
+	//To get the page title
+	Reporter.log("Browser Title : " + driver.getTitle());
+
+
+	  //To get the url of the page    
+	      Reporter.log("Browser Url : " + driver.getCurrentUrl());
+
+
+	  //To get the page source
+	      Reporter.log("Browser Page Source : " + driver.getPageSource());
+  
+ }
+  
+  @BeforeTest
+  public void SetUpTest() 
+  {
+	  
+	//Setting the FireFox driver
+	  System.setProperty("webdriver.gecko.driver", "C:\\Apps\\GeckoDriver\\geckodriver.exe");
+	  
+	  //FF Browser
+	  driver = new FirefoxDriver();
+	  
+	  //To launch the url
+	  driver.get("https://www.google.com"); 
+	   
+	 //To maximize the browser
+	  driver.manage().window().maximize(); 
+
+  }
+
+  @AfterTest
+  public void tearDownTest() {
+	  
+	  driver.close();
+  }
+
+}
